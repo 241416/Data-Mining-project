@@ -1,0 +1,3 @@
+Pillow>=8.1.1
+
+###参照网址：https://github.com/2904202165/LoveSpider
