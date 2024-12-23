@@ -1,0 +1,23 @@
+contribution_excel_path: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/dataset/contribution_score_ranklist.xlsx"
+influencer_dirpath: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/dataset/influential_person_weibo"
+
+contribution_csv_path: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/dataset/contribution_score_ranklist.csv"
+previous_tweets_path: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/content/tweets.csv"
+ori_data_path: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/dataset/data.csv"
+
+core_json_path: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/dataset/core.json"
+ordinary_json_path: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/dataset/ordinary.json"
+media_json_path: "/Users/taijieshengwu/Documents/专业课（大三下）/ZJX/SRE/dataset/media.json"
+
+start_time: "2024/11/5 23:59"
+openai_key: "sk-yiOQSzzduEMnzrb0B51aEc9a191b4b22B08d0d1fB1480081"
+
+character_description_dict:
+  自我牺牲型母亲: "常常把自己放在家庭中的最后，认为自己不重要，乐意为家人牺牲。她可能会想，“孩子们最需要，我得为他们着想。”"
+  传统性别分工型丈夫: "表现出一种传统性别角色分配的态度，认为自己应优先享受资源，妻子和孩子次之。"
+  情感需求型妻子: "通过“瑞士卷怎么分”来测试丈夫的关心与爱，期待丈夫能在细节上关注自己。"
+  反感性别对立观点: "批判这种讨论，认为现代人应该理性看待家庭关系，而非将所有争议聚焦在琐事上。"
+  现代家庭独立型女性: "自信、独立，认为婚姻中的平等与自我照顾同样重要，推崇个人的自由选择。"
+  幽默反转型人格: "风趣、调侃，以轻松幽默的方式处理日常生活中的小冲突。"
+  消费降级批判型: "认为这种讨论是无意义的消费文化的体现，对这种过度关心“吃”以及“分配”方式感到厌倦。"
+  借势营销商家: "利用事件热度，紧跟热点话题，增加曝光度，通过与用户情感共鸣的内容传递产品信息，提升品牌亲和力。"
