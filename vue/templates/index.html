@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>可视化3</title>
+    <!-- 引用 echarts.min.js -->
+<!--<script type="text/javascript" src="{{ url_for('static', filename='echarts.min.js') }}"></script>-->
+<!--&lt;!&ndash; 引用 china.js &ndash;&gt;-->
+<!--<script type="text/javascript" src="{{ url_for('static', filename='china.js') }}"></script>-->
+
+<!--&lt;!&ndash; 引用 CDN 上的 echarts &ndash;&gt;-->
+<!--<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>-->
+<!--<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>-->
+
+<script type="text/javascript" src="../static/echarts.min.js"></script>
+<!--    <script type="text/javascript" src="{{ url_for('static', filename='china.js') }}"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+<script type="text/javascript" src="../static/china.js"></script>
+
+</head>
+<body>
+<!--第一张图，放在大屏左下角-->
+<div class="boxall" style="height:260px;">
+    <div class="alltitle">事件初期群众情感态度</div>
+    
+    <div class="navboxall" id="echart5" style="width: 400px; height: 260px;"> </div>
+
+</div>
+<!--第二张图-->
+<!--第一张图-->
+<div>
+    <div style="width: 800px; height: 100px;"></div>
+    <div id="box" style="width: 800px; height: 700px;"></div>
+
+</div>
+
+<script>
+    import Graph from "graphology";
+    import Sigma from "sigma";
+
+    const graph = new Graph();
+    graph.addNode("1", { label: "节点1", x: 0, y: 0, size: 10, color: "蓝色" });
+    graph.addNode("2", { label: "节点2", x: 1, y: 1, size: 20, color: "红色" });
+    graph.addEdge("1", "2", { size: 5, color: "紫色" });
+
+    const sigmaInstance = new Sigma(graph, document.getElementById("echart5"));
+</script>
+
+</body>
+</html>
