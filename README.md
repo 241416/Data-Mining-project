@@ -20,6 +20,7 @@ pip install -r requirements.txt
 ```bash
 scrapy crawl search -s JOBDIR=crawls/search
 ```
+数据集文件太大超过GitHub的限制，所以我们没有上传数据集。
 
 ## 社交媒体事件模拟
 我们以HiSim（Unveiling the Truth and Facilitating Change: Towards Agent-based ）的方法为基础，并做了一些修改，我们将用户划分为核心用户、媒体用户和普通用户，核心用户用LLM模拟，普通用户用ABM模拟，媒体用户在其中起到扩散作用。宏观上，用百川大模型模拟10轮后和微博全站数据分析进行对比，微观上，我们对比单个Agent单轮模拟和现实发布内容的相似度。
